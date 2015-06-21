@@ -38,8 +38,6 @@ html, body{
     right: 0;
     bottom: 0;
     left: 0;
-    /* fill parent */
-    background-color: deepskyblue;
 }
 
 iframe{
