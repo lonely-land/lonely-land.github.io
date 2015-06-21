@@ -80,3 +80,24 @@ hr{
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+.authors .author{
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 1em;
+}
+
+.authors .author .img-container{
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+}
+
+.img-container{
+    overflow: hidden;
+}
+
+.img-container img{
+    max-width: 100%;
+    height: auto;
+}
