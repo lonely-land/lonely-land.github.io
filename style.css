@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background: rgb(19, 19, 19);
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    padding: 0 1em;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.wrapper {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+
+}
+.wrapper:after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+.main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* fill parent */
+    background-color: deepskyblue;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2em;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+.fb-like{
+    padding-top: 0.4em;
+}
