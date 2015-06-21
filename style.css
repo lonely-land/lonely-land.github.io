@@ -22,7 +22,7 @@ html, body{
 }
 
 @media (max-width: 660px){
-    .container{
+    .container.long{
         position: relative;
         top: 0;
         transform: none;
